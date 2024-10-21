@@ -3,6 +3,9 @@
 }
 
 dotnet ef migrations add InitialCreate
+
 dotnet ef migrations add AddProductGroups
+
 dotnet ef migrations add AddProducts
+
 dotnet ef database update
